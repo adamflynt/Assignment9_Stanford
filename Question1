@@ -1,0 +1,5 @@
+(name == "Q") will not work because == can only compare primitive types and not strings.
+
+(ch == "Q") works because it is comparing primitive types.
+
+For the first code to work you would need to use name.equals("Q").
